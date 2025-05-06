@@ -29,6 +29,8 @@ Branch
 -git checkout (erpindah antar branch atau commit, serta bisa juga untuk mengembalikan file ke kondisi tertentu)
 -git merge (menggabungkan dua branch di Git. Biasanya, kamu menggabungkan branch fitur (misalnya fitur-contact) ke branch utama (seperti main), setelah selesai mengembangkan fitur tersebut)
 -git tag (menandai titik tertentu dalam riwayat commit, biasanya untuk menandai versi rilis (seperti v1.0, v2.1, dll). Tag ini sering digunakan saat merilis software, karena tag menunjukkan commit penting atau stabil)
+ git push origin master --tag (untuk push tag)
+ git tag -d "v1.0" (untuk menghapus tag "v1.0" sesuaikan tag mana yg ingin dihapus)
 
 
 
