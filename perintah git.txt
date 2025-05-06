@@ -15,9 +15,9 @@ Observe
  File apa yang siap di-commit (sudah di-add)
  File apa yang belum dilacak (untracked)
  File apa yang berubah tapi belum di-add )
--git diff 
--git show 
--git log 
+-git diff (melihat perbedaan (diff) antara versi file saat ini (working directory) dengan versi sebelumnya (entah itu yang sudah di-add atau yang sudah di-commit), dalam bentuk detail baris demi baris)
+-git show (menampilkan detail dari satu commit tertentu, termasuk: ID commit (hash), Author dan tanggal, Pesan commit, Perubahan yang terjadi pada file (diff).
+-git log (menampilkan riwayat commit dalam repository Git. Ini akan menunjukkan daftar commit yang telah dibuat, dengan informasi seperti: ID commit (hash), Penulis dan tanggal commit, Pesan commit)
 
 Sync 
 -git push 
@@ -30,3 +30,9 @@ Branch
 -git checkout 
 -git merge 
 -git tag.
+
+
+
+
+git remote add origin (menambahkan remote repository dengan nama origin ke dalam repository local)
+git remote -v (menampilkan daftar remote repositories yang terhubung dengan repository Git lokal kamu, beserta URL-nya)
