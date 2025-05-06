@@ -25,10 +25,10 @@ Sync
 -git fetch (mengambil (download) perubahan terbaru dari remote repository ke repository lokal tanpa langsung menggabungkannya ke branch yang sedang aktif)
  
 Branch 
--git branch 
--git checkout 
--git merge 
--git tag.
+-git branch (melihat, membuat, atau menghapus branch di Git. Branch adalah cabang pengembangan yang memungkinkan kamu mengerjakan fitur atau perubahan secara terpisah dari branch utama (seperti main atau master))
+-git checkout (erpindah antar branch atau commit, serta bisa juga untuk mengembalikan file ke kondisi tertentu)
+-git merge (menggabungkan dua branch di Git. Biasanya, kamu menggabungkan branch fitur (misalnya fitur-contact) ke branch utama (seperti main), setelah selesai mengembangkan fitur tersebut)
+-git tag (menandai titik tertentu dalam riwayat commit, biasanya untuk menandai versi rilis (seperti v1.0, v2.1, dll). Tag ini sering digunakan saat merilis software, karena tag menunjukkan commit penting atau stabil)
 
 
 
