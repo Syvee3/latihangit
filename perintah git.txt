@@ -1,0 +1,32 @@
+Create 
+-git init (menginisialisasi repository Git baru di dalam sebuah folder proyek. Artinya, Git akan mulai melacak perubahan file di folder tersebut, sehingga kamu bisa menggunakan fitur-fitur Git seperti commit, branch, dan lainnya)
+-git clone (mengunduh/menggandakan repository Git yang sudah ada dari remote (misalnya GitHub, GitLab, Bitbucket) ke komputer lokal kamu)
+
+Make a Change 
+-git add <File> (menambahkan file tertentu saja ke staging area, bukan semua file)
+-git add . (menambahkan semua perubahan file (file baru, file yang diubah, dan file yang dihapus) di dalam direktori kerja ke staging area Git) 
+-git commit -m "<Message>" (menyimpan snapshot (rekaman) dari perubahan yang sudah ada di staging area ke dalam riwayat Git, dengan menambahkan pesan penjelas (<message>) untuk menjelaskan isi perubahan tersebut)
+-git reset <File> (menghapus file tertentu dari staging area, artinya membatalkan git add yang sebelumnya sudah dilakukan, tanpa menghapus atau mengubah isi file di direktori kerja)
+-git reset --hard (mengembalikan repository ke kondisi commit tertentu, sekaligus menghapus semua perubahan di staging area dan direktori kerja (termasuk file yang belum disimpan atau di-commit))
+
+Observe 
+-git status (menampilkan status terkini dari working directory dan staging area, sehingga kamu tahu:
+ File apa yang telah dimodifikasi
+ File apa yang siap di-commit (sudah di-add)
+ File apa yang belum dilacak (untracked)
+ File apa yang berubah tapi belum di-add )
+-git diff 
+-git show 
+-git log 
+
+Sync 
+-git push 
+-git pull 
+-git fetch 
+-git push 
+ 
+Branch 
+-git branch 
+-git checkout 
+-git merge 
+-git tag.
