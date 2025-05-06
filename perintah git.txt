@@ -20,10 +20,9 @@ Observe
 -git log (menampilkan riwayat commit dalam repository Git. Ini akan menunjukkan daftar commit yang telah dibuat, dengan informasi seperti: ID commit (hash), Penulis dan tanggal commit, Pesan commit)
 
 Sync 
--git push 
--git pull 
--git fetch 
--git push 
+-git push (mengirim perubahan dari repository lokal ke remote repository GitHub)
+-git pull (mengambil perubahan terbaru dari remote repository dan langsung menggabungkannya (merge) ke branch lokal kamu yang sedang aktif)
+-git fetch (mengambil (download) perubahan terbaru dari remote repository ke repository lokal tanpa langsung menggabungkannya ke branch yang sedang aktif)
  
 Branch 
 -git branch 
